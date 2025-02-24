@@ -1,0 +1,26 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: theme('colors.spotify.dark');
+}
+
+::-webkit-scrollbar-thumb {
+  background: theme('colors.spotify.dark-secondary');
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: theme('colors.spotify.dark-hover');
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: theme('colors.spotify.dark');
+}
